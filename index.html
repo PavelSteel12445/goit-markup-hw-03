@@ -25,6 +25,7 @@
             <a href="./index.html" class="logotipe"
               >Web<span class="logo-header">Studio</span>
             </a>
+
             <ul class="header-menu">
               <li>
                 <a href="./index.html" class="link current">Студія</a>
@@ -59,9 +60,10 @@
           <span class="tittle-button">Замовити послугу</span>
         </button>
       </section>
-      <div class="container">
-        <section class="benefit-section">
-          <h2 class="benefit-title section">Наші переваги</h2>
+
+      <section class="benefit-section section">
+        <div class="container">
+          <h2 class="benefit-title">Наші переваги</h2>
           <ul class="benefit-container">
             <li class="benefit-items">
               <h3 class="benefit-subtitle">Увага до деталей</h3>
@@ -91,14 +93,15 @@
               </p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <section class="benefit-hero">
         <div class="container">
-          <h2 class="benefit-title section">Чим ми займаємось</h2>
+          <h2 class="benefit-title">Чим ми займаємось</h2>
 
           <ul class="benefit-hero-items">
-            <li>
+            <li class="benefit-box">
               <img
                 src="./images/img1.jpg"
                 alt="Друк на клавіатурі"
@@ -118,24 +121,30 @@
           </ul>
         </div>
       </section>
-      <section class="secondary-section">
+      <section class="secondary-section section">
         <div class="container">
-          <h2 class="secondary-title section">Наша команда</h2>
+          <h2 class="secondary-title">Наша команда</h2>
           <ul class="secondary-container">
             <li class="secondary-box">
               <img src="./images/igor.jpg" alt="Ігор Демченко" width="270" />
-              <h3 class="secondary-img-title">Ігор Демченко</h3>
-              <p class="secondary-img-slogan">Product Designer</p>
+              <div class="card-box">
+                <h3 class="secondary-img-title">Ігор Демченко</h3>
+                <p class="secondary-img-slogan">Product Designer</p>
+              </div>
             </li>
             <li class="secondary-box">
               <img src="./images/olga.jpg" alt="Ольга Рєпіна" width="270" />
-              <h3 class="secondary-img-title">Ольга Рєпіна</h3>
-              <p class="secondary-img-slogan">Frontend Developer</p>
+              <div class="card-box">
+                <h3 class="secondary-img-title">Ольга Рєпіна</h3>
+                <p class="secondary-img-slogan">Frontend Developer</p>
+              </div>
             </li>
             <li class="secondary-box">
               <img src="./images/mukola.jpg" alt="Микола Тарасов" width="270" />
-              <h3 class="secondary-img-title">Микола Тарасов</h3>
-              <p class="secondary-img-slogan">Marketing</p>
+              <div class="card-box">
+                <h3 class="secondary-img-title">Микола Тарасов</h3>
+                <p class="secondary-img-slogan">Marketing</p>
+              </div>
             </li>
             <li class="secondary-box">
               <img
@@ -143,8 +152,10 @@
                 alt="Михайло Єрмаков"
                 width="270"
               />
-              <h3 class="secondary-img-title">Михайло Єрмаков</h3>
-              <p class="secondary-img-slogan">UI Designer</p>
+              <div class="card-box">
+                <h3 class="secondary-img-title">Михайло Єрмаков</h3>
+                <p class="secondary-img-slogan">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -152,13 +163,13 @@
     </main>
     <footer class="footer-section">
       <div class="container">
-        <div class="footer-container">
-          <a href="./index.html" class="logotipe"
+        <address class="adress">
+          <a href="./index.html" class="logotipe-footer"
             >Web<span class="logo-footer">Studio </span></a
           >
-          <address>
-            <ul class="footer-adress-container">
-              <li>
+          <div class="footer-div">
+            <ul>
+              <li class="footer-logo">
                 <a
                   class="adress article"
                   href="https://goo.gl/maps/jyR7wXBARbgmtuSR7"
@@ -168,19 +179,19 @@
                 >
               </li>
 
-              <li>
+              <li class="footer-box">
                 <a class="footer-link article" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li>
+              <li class="footer-box">
                 <a class="footer-link article" href="tel:+380961111111"
                   >+38096 111 11 11</a
                 >
               </li>
             </ul>
-          </address>
-        </div>
+          </div>
+        </address>
       </div>
     </footer>
   </body>
